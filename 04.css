@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title_01 {
+    color: red;
+    font-size: 60px;
+}
+
+.list {
+    list-style: none;
+}
+
+.list li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.list li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #333;
+    color: #ddd;
+    font-weight: bold;
+    padding: 0.6rem 2rem;
+    border-radius: 20px;
+    transition: background 1s;
+}
+
+.list li a:hover {
+    background: green;
+    color: #fff
+}
+
+
+#title_02 {    
+    clear: both;
+    color: green;
+    font-size: 20px;
+}
+
+.list_02 {
+    list-style: none;
+}
+
+.list_02 li {
+    display: inline;
+    margin-right: 10px;
+}
