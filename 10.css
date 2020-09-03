@@ -15,14 +15,25 @@ h1 {
 }
 
 ul {
+  list-style: none;
+  /* overflow: hidden; */
   display: flex;
   justify-content: space-between;
-  list-style: none;
+  flex-wrap: wrap;
 }
 
 ul li {
   width: 254px;
+  margin-bottom: 30px;
 }
+
+/* ul li:nth-child(4) {
+  margin-right: 0;
+}
+
+ul li:last-child {
+  margin-right: 0;
+} */
 
 li a {
   color: #111;
