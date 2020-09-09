@@ -9,6 +9,10 @@ a {
   color: #e5e5e5;
 }
 
+img {
+  display: block;
+}
+
 .container {
 }
 
@@ -38,4 +42,30 @@ a {
 .section {
   width: 960px;
   margin: 70px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section > div {
+  width: 460px;
+}
+
+.section .photos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section .photos .photo-01,
+.section .photos .photo-02 {
+  width: 220px;
+}
+
+.section .photos .photo-01 img:first-child {
+  margin-bottom: 20px;
+}
+
+.gray-box {
+  background-color: #e7e7e7;
+  height: 300px;
 }
